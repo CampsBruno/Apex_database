@@ -1,0 +1,44 @@
+pyseract -->   Hya que descargar e instalar los modulos, por lo tanoto hay que exploicarlo en el final del programa, tanto donde conseguirlo como que lenguaje bajarlo yo como setearlo
+ 
+
+
+ main -->             - 287 Comente est por ahora para hacer pruebas, descomentalo y saca el pas  #Vaolres_Guardados[nombre] = {'Elimin./Asistencias / KO.': '99/99/99',"Daño Realizado":'Error en toma de valores',"tiempo de Supervivencia":"
+                   
+
+                     - Sila imagen no es de la partida, por ahora manda un null general pero la almacena, habria uqe poner que
+                     -de alguna forma consulte si fue un error, esto de ultima en corrige datos y anularla
+
+                    - VER SI LAS CAIDAS Y REVIVIR COMPÁÑERO FUNCIONAN EN INGLES
+
+tiempo peloton -->    Creo que fue todo solucionado
+
+
+
+
+gUARDAR_DATOS -->   
+                     
+
+
+
+crear script que arme directo la base de datos y los triggers
+
+
+
+Poner Script para corregir valores fallad0s, qeu directamente lo ponga en null si no va
+
+
+
+
+
+CORRIGE_DATOSS --->     PONER: Que pida tambien los PDI en tabla PARTIDAS Y si llega a haber un NULL y la diferencia de tiempo con la partida anterior es "baja"
+                                que te pregunte si es alguien del equipo que no tomo los valores, si le podes que si(seleccionando el nobre(poenle por pdi))
+                               
+                        
+
+
+
+
+
+para un futuro  https://apexlegendsapi.com/#introduction
+
+ahi hay apis de rotacion de mapas y rotacion del crafting 

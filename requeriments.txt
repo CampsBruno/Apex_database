@@ -1,0 +1,13 @@
+ pytesseract
+ Pillow
+ opencv-python
+ numpy
+ pandas
+ fuzzywuzzy
+ python-Levenshtein
+ pyautogui
+ keyboard
+ mysql.connector
+ matplotlib
+ scikit-learn
+ openpyxl
