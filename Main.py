@@ -19,13 +19,15 @@ from Moduls.Tiempo_peloton import Determinar_Errores
 
 
 
-################################################     DATOSD MOPDIFICABLES
+################################################     DATOS MOPDIFICABLES  / MODIFY
 
 
-Nombres=["[Vpr]-Sicario","cheliRp","garnacho","Kaleroth"]       #Cambiar Nombres en la lista    ["[Vpr]-Sicario","cheliRp","Kaleroth"]
+Nombres=["name of frequent squad players separated by comma"]       #ejemplo/example:  ["[Vpr]-Sicario","cheliRp","Kaleroth"]
  
 
-lenguaje='spa' #   'eng'     'spa'
+lenguaje='spa' #   'eng'     'spa'     select the same language as in the game
+
+
 
 
 
@@ -380,8 +382,6 @@ print(ruta)
 
 
 
-#IndexError: list index out of range
 
 
-#Pasos a seguir   -  mejorar el reconocimiento    ///           PONER EN LA FUNCION DE ALMACENAMIENTO DE MYSQL QUE ME DEVUELVA EL ID DE LA PARTIDA, DESPUE SCREA OTRO ALGO QUE CON ESE ID PERMITA CORREGIR LSO DATOS, FRENTE A UNA TOMA ERRONEA
-#  HAY DATOS QEU COM ELIMINACIONES QUE LSO AMDNA EN AMS DE 20 O ALGO ASI, PONER QEU SEA NULL, POSICION PELOTON EN 99 PONER NULL TRIGER
+

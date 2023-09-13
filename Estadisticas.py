@@ -7,8 +7,13 @@ import numpy as np
 ################################################################   MODIFICABLES
 
 
-orden = ['[Vpr]-Sicario', 'cheliRp', 'Kaleroth']
+orden = ["player database order"]  #-------------  Modify
 
+
+userr="modify this"       #-------------  Modify              
+passwordd="modify this"   #-------------  Modify
+hostt="modify this"       #-------------  Modify
+databasee="Apex_DB"       #-------------  Modify
 
 
 
@@ -128,13 +133,16 @@ class Estadistica():
 
 #  ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+
+
+
 if __name__ == "__main__":
-        user="root"                      #-------------------------------------------------------------  aca  a sacar
-        password="KEnny12345626482"
-        host="localhost"
-        database="PRUEBAS_BORRAR"
+        user=userr                     #-------------------------------------------------------------  aca  a sacar
+        password=passwordd
+        host= hostt
+        database=databasee
         estadistica = Estadistica(user, password, host, database)
-        respuesta=estadistica.Obtener_datos(5)
+        respuesta=estadistica.Obtener_datos()
         #estadistica.Exportar_Datos()     ##                              Exportar datos
         
         

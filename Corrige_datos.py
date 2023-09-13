@@ -14,10 +14,10 @@ from datetime import datetime
 
 
 Base= mysql.connector.connect(
-          user="root",
-          password="KEnny12345626482",
-          host="localhost",
-          database="PRUEBAS_BORRAR"
+          user="modify this",       #-------------  Modify,
+          password="modify this",       #-------------  Modify,
+          host="modify this",       #-------------  Modify
+          database="Apex_DB"
 
           )
 

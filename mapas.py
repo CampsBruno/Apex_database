@@ -13,10 +13,12 @@ lenguaje='eng' #   'eng'.
 
 OPEN= "https://apexlegendsstatus.com/current-map/battle_royale/pubs "
 
-user="root"
-password="KEnny12345626482"
-host="localhost"
-database="PRUEBAS_BORRAR"
+
+
+user="modify this"       #-------------  Modify
+password="modify this"       #-------------  Modify
+host="modify this"       #-------------  Modify
+database="Apex_DB"
 
 
 

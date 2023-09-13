@@ -6,11 +6,11 @@ import mysql.connector
 
 
 base = mysql.connector.connect(
-          user="root",
-          password="KEnny12345626482",
-          host="localhost"
+          user="modify this",       #-------------  Modify,
+          password="modify this",       #-------------  Modify,
+          host="modify this"       #-------------  Modify
 )
-
+ 
 
 
 
@@ -19,8 +19,8 @@ base = mysql.connector.connect(
 #CREATE THE DATABASE, IMPORTANT IF YOU MODIFY THE NAME OF THE DATABASE YOU MUST PUT THE SAME NAME IN THE REST OF THE SCRIPTS
 
 cursor = base.cursor()
-cursor.execute("CREATE DATABASE IF NOT EXISTS PRUEBAS_BORRAR")    #PRUEBAS_BORRAR
-cursor.execute("USE PRUEBAS_BORRAR")
+cursor.execute("CREATE DATABASE IF NOT EXISTS Apex_DB")    #PRUEBAS_BORRAR
+cursor.execute("USE Apex_DB")
 
 
 

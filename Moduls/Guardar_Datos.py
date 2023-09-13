@@ -10,10 +10,14 @@ def Almacenamiento_Definitivo (Peloton_Posicion,Vaolres_Guardadoss,Ruta_Imagenn,
 
   try:  ##------------------------------------------------------    MODIFY    --------------------------------------------------#############################################################################
           Base= mysql.connector.connect(
-          user="root",
-          password="KEnny12345626482",
-          host="localhost",
-          database="PRUEBAS_BORRAR"
+          user="modify this",       #-------------  Modify,
+          password="modify this",       #-------------  Modify,
+          host="modify this",       #-------------  Modify
+          database="Apex_DB"
+
+
+
+          
 ## ######################################################################################################################################################################################################################################
           )
 
@@ -103,15 +107,15 @@ def Almacenamiento_Definitivo (Peloton_Posicion,Vaolres_Guardadoss,Ruta_Imagenn,
 # ---------------------------------------------    FINB DELK EXPERIMENTO LO DE ABAJO ES LO QUE HABIA ANTES (2/2)
 
 
-          #pedido=("INSERT INTO Partidas(PID1,PID2,PID3,Posicion_Peloton,Ruta_Imagen) VALUES(%s,%s,%s,%s,%s)")
-          #numeros= (1,2,3,Posicion_Pelotonn,Ruta_Imagen)   #-----------------------------------------------------------   ESTO ES ESTATICO, NO BUSCA SI LOS JUGADORES ESTAN
+          
+           
 
 
 
 
-          #cursor.execute(pedido,numeros)
+          
 
-          ultimoID=cursor.lastrowid    ## ojo que esto agarra el ultimo id de la partida recien agregada
+          ultimoID=cursor.lastrowid    
 
           
 
