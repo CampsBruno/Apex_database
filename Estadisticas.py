@@ -13,7 +13,7 @@ orden = ["player database order"]  #-------------  Modify
 userr="modify this"       #-------------  Modify              
 passwordd="modify this"   #-------------  Modify
 hostt="modify this"       #-------------  Modify
-databasee="Apex_DB"       #-------------  Modify
+databasee="Apex_DB"       
 
 
 
